@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+.npm
+dist/
+
+# Application data & uploads (keep sample PDFs)
+backend/uploads/*.pdf
+!backend/uploads/.gitkeep
+backend/data/*.json
+!backend/data/.gitkeep
+
+# Environment variables
+.env
+*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
